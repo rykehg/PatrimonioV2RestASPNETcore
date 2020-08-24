@@ -1,6 +1,6 @@
 # A Rest API using C# ASP.NET Core
 
-> #C# #ASP.NET Core #Web API #Dapper
+> #C#   #ASP.NET Core  #Web API   #Dapper   #Error Standardization
 >
 > Quick simple CRUD project using ASP.NET Core with Dapper and error standardization.
 >
@@ -8,9 +8,11 @@
 > This project have two main entities ("Marca" and "Patrimonio") to keep track of patrimony ("Patrimonio") from a Company ("Empresa").
 > And uses a MVC pattern with Views as JSON.
 >
-> Dapper(1) was used to show queries made and to simplify conversion of information to objects and SELECT queries to JSON.
+> Dapper(1) was used to connect and show queries made to data base and to simplify conversion of information to objects and SELECT queries responses to JSON.
 >
 > Error standardization (2) was used as a solution to prevent new errors formats from being created using build in exceptions from database and ASP.Net Core.
+>
+> [Ben.Demystifier](https://github.com/benaadams/Ben.Demystifier) was used to make error logs more productive as .NET stack traces output by compiler is transformed in methods.
 
 ## Installation
 - Clone this repo to your local machine using `https://github.com/rykehg/PatrimonioV2RestASPNETcore`.
