@@ -1,5 +1,5 @@
 # A Rest API using C# ASP.NET Core
-> Quick simple CRUD project using ASP.NET Core with Dapper and error patronization.
+> Quick simple CRUD project using ASP.NET Core with Dapper and error standardization.
 >
 
 > #C# #ASP.NET Core #Web API #Dapper
@@ -13,12 +13,12 @@
 
 ## Installation
 - Clone this repo to your local machine using `https://github.com/rykehg/PatrimonioV2RestASPNETcore`.
-- Data base creation scripts can be found in `"PatrimoniosV2/SQLDatabaseCreation/CreateTables.sql"`.
+- Data base creation scripts can be found at `"PatrimoniosV2/SQLDatabaseCreation/CreateTables.sql"`.
 	- Run the first line to create "Empresa" data base in MS SQL, then run the other lines in order or all together.
-- To run the project you need  .NET Framework installed or Visual Studio
-- With Visual Studio you should be able to open the project/solution with Visual Studio, build it* and run it from there.
+- To run the project you need .NET Framework installed and/or Visual Studio
+- With Visual Studio you should be able to open the project/solution, build it* and run it from there.
 - Without Visual Studio
-	- Acess the porject folder with cmd or powershell and use the command:
+	- Acess the project folder with cmd or powershell and use the command:
 	```shell
 	$ dotnet run
 	```
