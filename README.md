@@ -1,17 +1,19 @@
 # A Rest API using C# ASP.NET Core
 > Quick simple CRUD project using ASP.NET Core with Dapper and error patronization.
 
+
 > This project have two main entities ("Marca" and "Patrimonio") to keep track of patrimony ("Patrimonio") from a Company ("Empresa").
 
 > Dapper(1) was used to show queries made and to simplify conversion of information to objects and SELECT queries to JSON.
 
 > Error standardization (2) was used as a solution to prevent new errors formats from being created using build in exceptions from database and ASP.Net Core.
 
+
 > #C# #ASP.NET Core #Web API #Dapper
 
 
 ## Installation
-- Clone this repo to your local machine using `https://github.com/rykehg/PatrimonioRestASPNETcore`.
+- Clone this repo to your local machine using `https://github.com/rykehg/PatrimonioV2RestASPNETcore`.
 - Data base creation scripts can be found in `"PatrimoniosV2/SQLDatabaseCreation/CreateTables.sql"`.
 	- Run the first line to create "Empresa" data base in MS SQL, then run the other lines in order or all together.
 - To run the project you need  .NET Framework installed or Visual Studio
