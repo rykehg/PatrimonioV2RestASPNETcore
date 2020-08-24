@@ -1,7 +1,10 @@
 # A Rest API using C# ASP.NET Core
 > Quick simple CRUD project using ASP.NET Core with Dapper and error patronization.
+
 > This project have two main entities ("Marca" and "Patrimonio") to keep track of patrimony ("Patrimonio") from a Company ("Empresa").
+
 > Dapper(1) was used to show queries made and to simplify conversion of information to objects and SELECT queries to JSON.
+
 > Error standardization (2) was used as a solution to prevent new errors formats from being created using build in exceptions from database and ASP.Net Core.
 
 > #C# #ASP.NET Core #Web API #Dapper
