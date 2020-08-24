@@ -15,20 +15,20 @@
 > [Ben.Demystifier](https://github.com/benaadams/Ben.Demystifier) was used to make error logs more productive as .NET stack traces output by compiler is transformed in methods.
 
 ## Installation
-- Clone this repo to your local machine using `https://github.com/rykehg/PatrimonioV2RestASPNETcore`.
--
-- Data base creation scripts can be found at `"PatrimoniosV2/SQLDatabaseCreation/CreateTables.sql"`.
-	- Using your prefered database tool, run the first line to create "Empresa" data base in MS SQL Server.
-	- Inside "Empresa" db, run the other queries in order or all together at once.
--
-- To run the project you need .NET Framework installed and/or Visual Studio
-	- First configure data base connection string in `"PatrimoniosV2/appsettings.json"`.
-- With Visual Studio you should be able to open the project/solution, build it* and run it from there.
-- Without Visual Studio
-	- Acess the project folder with cmd or powershell and use the command:
-	```shell
-	$ dotnet run
-	```
+>- Clone this repo to your local machine using `https://github.com/rykehg/PatrimonioV2RestASPNETcore`.
+>
+>- Data base creation scripts can be found at `"PatrimoniosV2/SQLDatabaseCreation/CreateTables.sql"`.
+>	- Using your prefered database tool, run the first line to create "Empresa" data base in MS SQL Server.
+>	- Inside "Empresa" db, run the other queries in order or all together at once.
+>
+>- To run the project you need .NET Framework installed and/or Visual Studio
+>	- First configure data base connection string in `"PatrimoniosV2/appsettings.json"`.
+>- With Visual Studio you should be able to open the project/solution, build it* and run it from there.
+>- Without Visual Studio
+>	- Acess the project folder with cmd or powershell and use the command:
+>	```shell
+>	$ dotnet run
+>	```
 
 
 ## Testing using a Client API
