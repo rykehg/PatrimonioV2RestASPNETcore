@@ -25,7 +25,7 @@
 
 >- To run the project you need .NET Framework installed and/or Visual Studio
 >	- First configure data base connection string in `"PatrimoniosV2/appsettings.json"`.
->- With Visual Studio you should be able to open the project/solution, build it* and run it from there.
+>- With Visual Studio you should be able to open the project/solution, build it and run it from there.
 >- Without Visual Studio
 >	- Acess the project folder with cmd or powershell and use the command:
 >	```shell
