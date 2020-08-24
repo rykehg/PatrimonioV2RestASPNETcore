@@ -6,6 +6,7 @@
 >
 
 > This project have two main entities ("Marca" and "Patrimonio") to keep track of patrimony ("Patrimonio") from a Company ("Empresa").
+> And uses a MVC pattern with Models, Controllers and Views as JSON.
 >
 > Dapper(1) was used to show queries made and to simplify conversion of information to objects and SELECT queries to JSON.
 >
