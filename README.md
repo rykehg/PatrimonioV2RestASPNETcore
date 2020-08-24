@@ -8,11 +8,11 @@
 > This project have two main entities ("Marca" and "Patrimonio") to keep track of patrimony ("Patrimonio") from a Company ("Empresa").
 > And uses a MVC pattern with Views as JSON.
 >
-> Dapper(1) was used to connect and show queries made to data base and to simplify conversion of information to objects and SELECT queries responses to JSON.
+> [Dapper(1)](#references) was used to connect and show queries made to data base and to simplify conversion of information to objects and SELECT queries responses to JSON.
 >
-> Error standardization (2) was used as a solution to prevent new errors formats from being created using build in exceptions from database and ASP.Net Core.
+> [Error standardization(2)](#references) was used as a solution to prevent new errors formats from being created using build in exceptions from database and ASP.Net Core.
 >
-> [Ben.Demystifier](https://github.com/benaadams/Ben.Demystifier) was used to make error logs more productive as .NET stack traces output by compiler is transformed in methods.
+> [Ben.Demystifier(3)](#references)  was used to make error logs more productive as .NET stack traces output by compiler is transformed in methods.
 
 ## Installation
 >- Clone this repo to your local machine using `https://github.com/rykehg/PatrimonioV2RestASPNETcore`.
@@ -42,7 +42,7 @@
 	- [Dapper-DotNetCore2.1](https://github.com/renatogroffe/Dapper-DotNetCore2.1)
 2. [Error standardization in APIS](https://www.wellingtonjhn.com/posts/padroniza%C3%A7%C3%A3o-de-respostas-de-erro-em-apis-com-problem-details/)
 	- [DemoGlobalExceptionHandling](https://github.com/wellingtonjhn/DemoGlobalExceptionHandling)
-
+3. [Ben.Demystifier](https://github.com/benaadams/Ben.Demystifier)
 
 ---
 
